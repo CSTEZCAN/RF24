@@ -43,7 +43,7 @@ radio.openWritingPipe(0xA1B2C3D4E5)
 radio.openReadingPipe(0,0xA1B2C3D4F6)
 radio.startListening()
 #to test if radio has unique RF24 Chip enable below
-#radio.setAutoAck()
+#radio.setAutoAck(1)
 
 #time.sleep helps to reduce cpu usage and power consumption disable if you have time critical relay op
 time.sleep(0.05)
